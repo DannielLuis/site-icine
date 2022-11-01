@@ -2,17 +2,30 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
 html, body{
     width: 100%;
     height: 100%;
 }
 
 .header{
-    width: 100%;
-    height: 100vh;
-    background-color: aqua;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+#logo{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    /*background-color: blue;*/
 }
 
 .navbar{
@@ -20,11 +33,5 @@ html, body{
     background-color: gray;
 }
 
-.navbar > a{
-    color: white;
-    font-size: 35px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 20px;
-    /*background-color: blue;*/
-}
+
+
