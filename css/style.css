@@ -11,27 +11,42 @@ html, body{
 
 .header{
     box-sizing: border-box;
-    height: 70px;
-    padding: 20px;
+    height: 400px;
+    background-color: pink;
+}
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: gray;
 }
 
-#logo{
+.navbar a{
+    text-decoration: none;
     color: white;
     font-size: 35px;
-    text-decoration: none;
+}
+#logo{
     font-weight: bold;
     margin: 20px;
-    /*background-color: blue;*/
 }
-/*
-.navbar{
-    width: 100%;
-    background-color: gray;
-}*/
+
+.btn{
+    display: none;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 5px;
+    background-color: blue;
+}
+.linha-1, .linha-2, .linha-3{
+    width: 40px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: white;
+}
+
 
 #menu{
     display: flex;
@@ -43,12 +58,16 @@ html, body{
 #menu a {
     display: block;
     padding: 20px;
-    color: white;
-    font-size: 35px;
-    text-decoration: none;
 }
 
-
+@media (max-width: 750px){
+    #menu{
+        display: none;
+    }
+    .btn{
+        display: block;
+    }
+}
 
 
 
