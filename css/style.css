@@ -11,27 +11,25 @@ html, body{
 
 .header{
     box-sizing: border-box;
-    height: 70px;
-    padding: 20px;
+    height: 400px;
+    background-color: pink;
+}
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: gray;
 }
 
-#logo{
+.navbar a{
+    text-decoration: none;
     color: white;
     font-size: 35px;
-    text-decoration: none;
+}
+#logo{
     font-weight: bold;
     margin: 20px;
-    /*background-color: blue;*/
 }
-/*
-.navbar{
-    width: 100%;
-    background-color: gray;
-}*/
 
 #menu{
     display: flex;
@@ -43,9 +41,6 @@ html, body{
 #menu a {
     display: block;
     padding: 20px;
-    color: white;
-    font-size: 35px;
-    text-decoration: none;
 }
 
 
