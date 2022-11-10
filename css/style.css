@@ -47,3 +47,35 @@ html, body{
     font-size: 35px;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+main{
+    padding: 50px;
+    background-color: aqua;
+}
+.section {
+    height: 300px;
+    margin-top: 50px;
+    background-color: bisque;
+}
+
+
+footer{
+    height: 300px;
+    text-align: center;
+    background-color: brown;
+}
+
+footer h2{
+    color: white;
+    font-size: 50px;
+}
+
+
