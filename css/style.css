@@ -44,23 +44,23 @@ html, body{
     margin: 0 20px;
     text-decoration: none;
     color: #fff;
-    border: 3px solid red;
+    /*border: 3px solid red;*/
 }
 
 .btn{
     display: none;
-    box-sizing: border-box;
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
-    padding: 0 5px;
-    background-color: blue;
+    cursor: pointer;
+    /*border: 3px solid blue;*/
 }
-.linha-1, .linha-2, .linha-3{
+
+.linha1, .linha2, .linha3{
     width: 40px;
     height: 3px;
-    margin-top: 10px;
+    margin: 10px;
     background-color: white;
+}
+.linha2{
+    height: 5px;
 }
 
 #menu{
@@ -80,7 +80,7 @@ html, body{
     /*border: 3px solid blue;*/
 }
 
-@media (max-width: 500px){/*750px*/
+@media (max-width: 600px){/*750px*/
     #menu{
         display: none;
     }
