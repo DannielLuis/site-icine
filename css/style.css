@@ -2,6 +2,13 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-1: #343a40;
+    --color-2: #333;
+    --color-3: #23232e;
 }
 
 html, body{
@@ -10,15 +17,25 @@ html, body{
 }
 
 .header{
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     height: 400px;
     background-color: pink;
+    /*border: 3px solid red;*/
 }
+
 .navbar{
     display: flex;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    left: 0;
+    /*float: left;*/
+    z-index: 10;
+    padding: 1rem;
     align-items: center;
     justify-content: space-between;
-    background-color: gray;
+    background-color: var(--color-3);
+    /*border: 3px solid blue;*/
 }
 
 .navbar a{
@@ -53,11 +70,13 @@ html, body{
     list-style: none;
     gap: 20px;
     margin-right: 10px;
+    border: 3px solid red;
 }
 
 #menu a {
     display: block;
-    padding: 20px;
+    padding: 10px;/*20px*/
+    border: 3px solid blue;
 }
 
 @media (max-width: 750px){
