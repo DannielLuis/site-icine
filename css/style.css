@@ -38,14 +38,20 @@ html, body{
     /*border: 3px solid blue;*/
 }
 
+/*
 .navbar a{
     text-decoration: none;
     color: white;
     font-size: 35px;
-}
+}*/
+
 #logo{
+    font-size: 3rem;
     font-weight: bold;
-    margin: 20px;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid red;
 }
 
 .btn{
