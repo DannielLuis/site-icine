@@ -47,10 +47,11 @@ html, body{
     /*border: 3px solid red;*/
 }
 
-.btn{
+.btn-hamburger{
     display: none;
     cursor: pointer;
-    /*border: 3px solid blue;*/
+    /*border: 1px solid blue;*/
+    /*background-color: pink;*/
 }
 
 .linha1, .linha2, .linha3{
@@ -58,9 +59,12 @@ html, body{
     height: 3px;
     margin: 10px;
     background-color: white;
+    transition: .2s;
 }
+
 .linha2{
-    height: 5px;
+    height: 4px;
+    /*transition: .0s;*/
 }
 
 #menu{
@@ -84,10 +88,29 @@ html, body{
     #menu{
         display: none;
     }
-    .btn{
+    .btn-hamburger{
         display: block;
     }
 }
+
+.active .linha1{
+    transform: rotate(-135deg) translate(-9px, -10px);
+}
+.active .linha2{
+    opacity: 0;
+}
+.active .linha3{
+    transform: rotate(135deg) translate(-9px, 10px);
+}
+
+
+
+
+
+
+
+
+
 
 
 
