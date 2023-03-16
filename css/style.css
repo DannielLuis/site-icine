@@ -10,7 +10,8 @@
     --color-2: #333;
     --color-3: #23232e;
     --color-4: #2f2f3f;
-    --color-5: #e7e7e7;
+    --color-5: #2f2f3fd5;
+    --color-6: #e7e7e7;
 }
 
 html, body{
@@ -95,7 +96,7 @@ html, body{
         top: 80px;
         left: 0;
         transition: 0.5s;
-        background-color: var(--color-4);
+        background-color: var(--color-5);
         visibility: hidden;
         overflow-y: hidden;
         /*border: 2px solid red;*/
@@ -104,14 +105,13 @@ html, body{
         display: block;
     }
     .active #menu{
-        height: 189px;
+        height: 187px;
         visibility: visible;
-        overflow-y: auto;
     }
     #menu a {
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(170, 158, 158, 0.05);
+        border-bottom: 2px solid rgba(170, 158, 158, 0.151);
       }
 }
 
