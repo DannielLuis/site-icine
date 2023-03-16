@@ -20,10 +20,8 @@ html, body{
 }
 
 .header{
-    /*box-sizing: border-box;*/
     height: 400px;
     background-color: pink;
-    /*border: 3px solid red;*/
 }
 
 .navbar{
@@ -32,13 +30,11 @@ html, body{
     height: 80px;
     position: fixed;
     left: 0;
-    /*float: left;*/
     z-index: 10;
     padding: 1rem;
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-3);
-    /*border: 3px solid blue;*/
 }
 
 #logo{
@@ -47,14 +43,11 @@ html, body{
     margin: 0 20px;
     text-decoration: none;
     color: #fff;
-    /*border: 3px solid red;*/
 }
 
 .btn-hamburger{
     display: none;
     cursor: pointer;
-    /*border: 1px solid blue;*/
-    /*background-color: pink;*/
 }
 
 .linha1, .linha2, .linha3{
@@ -67,7 +60,6 @@ html, body{
 
 .linha2{
     height: 4px;
-    /*transition: .0s;*/
 }
 
 #menu{
@@ -75,7 +67,6 @@ html, body{
     margin: 0 auto;
     list-style: none;
     gap: 2rem;
-    /*border: 3px solid red;*/
 }
 
 #menu a {
@@ -84,7 +75,6 @@ html, body{
     text-decoration: none;
     font-size: 1.5rem;
     color: #fff;
-    /*border: 3px solid blue;*/
 }
 
 @media (max-width: 600px){/*750px*/
@@ -99,7 +89,6 @@ html, body{
         background-color: var(--color-5);
         visibility: hidden;
         overflow-y: hidden;
-        /*border: 2px solid red;*/
     }
     .btn-hamburger{
         display: block;
