@@ -14,6 +14,7 @@
     --primary-2: #008000;
     --base: #fff;
     --color-1: #343a40;
+    --color-2: rgba(255,255,255,.08);
     --color-3: #23232e;
     --color-4: #2f2f3f;
     --color-5: #2f2f3fd5;
@@ -52,7 +53,7 @@ html, body{
     font-weight: bold;
     margin: 0 20px;
     text-decoration: none;
-    color: #fff;
+    color: var(--primary-2);
 }
 
 .btn-hamburger{
@@ -138,7 +139,7 @@ html, body{
     margin: auto;
     margin-top: 20px;
     border: 3px solid pink;
-    border-bottom: 1px solid rgba(255,255,255,.08);
+    border-bottom: 1px solid var(--color-2);
 }
 
 .section-filmes h2{
@@ -215,7 +216,7 @@ html, body{
 .section-filmes .ver_mais{
     display: block;
     font-size: 1.6rem;
-    color: red;
+    color: var(--base);
     text-decoration: none;
     text-align: right;
     margin: 0 2rem 1rem 0;
@@ -242,7 +243,7 @@ footer{
 }
 
 footer h2{
-    color: white;
+    color: var(--primary-2);
     font-size: 50px;
 }
 
