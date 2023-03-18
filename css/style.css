@@ -138,6 +138,7 @@ html, body{
     margin: auto;
     margin-top: 20px;
     border: 3px solid pink;
+    border-bottom: 1px solid rgba(255,255,255,.08);
 }
 
 .section-filmes h2{
@@ -153,10 +154,10 @@ html, body{
     display: flex;
     width: 100%;
     height: auto;
-    margin: 15px 0 25px 0;
+    margin: 15px 0 0px 0;/*15px 0 25px 0*/
     border: 3px solid red;
-    padding-bottom: 30px;
-    border-bottom: 1px solid rgba(255,255,255,.08);
+    padding-bottom: 20px;
+    /*border-bottom: 1px solid rgba(255,255,255,.08);*/
 }
 
 .itens li{
@@ -191,7 +192,15 @@ html, body{
     font-size: 1rem;
 }
 
-
+.section-filmes .ver_mais{
+    display: block;
+    font-size: 1.6rem;
+    color: red;
+    text-decoration: none;
+    text-align: right;
+    margin: 0 2rem 1rem 0;
+    border: 1px solid #fff;
+}
 
 
 
