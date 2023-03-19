@@ -13,6 +13,7 @@
     --primary: #f06;
     --primary-2: #008000;
     --base: #fff;
+    --base2: #090;
     --color-1: #343a40;
     --color-2: rgba(255,255,255,.08);
     --color-3: #23232e;
@@ -213,13 +214,22 @@ html, body{
     font-size: 1rem;
 }
 
+
 .section-filmes .ver_mais{
-    display: block;
-    font-size: 1.6rem;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid #fff;
+}
+.section-filmes .ver_mais .btn_ver_mais{
+    font-size: 1rem;
+    font-weight: 300;
     color: var(--base);
     text-decoration: none;
-    text-align: right;
+    /*text-align: right;*/
+    padding: 3px 10px;
+    border-radius: 3px;
     margin: 0 2rem 1rem 0;
+    background-color: var(--base2);
     border: 1px solid #fff;
 }
 
