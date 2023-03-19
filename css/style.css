@@ -54,7 +54,7 @@ html, body{
     font-weight: bold;
     margin: 0 20px;
     text-decoration: none;
-    color: var(--primary-2);
+    color: var(--base2);
 }
 
 .btn-hamburger{
@@ -131,7 +131,7 @@ html, body{
     width: 100%;
     padding: 20px;
     background-color: var(--bg3);
-    border: 3px solid blue;
+    /*border: 3px solid blue;*/
 }
 
 .section-filmes{
@@ -139,14 +139,14 @@ html, body{
     height: auto;
     margin: auto;
     margin-top: 20px;
-    border: 3px solid pink;
+    /*border: 3px solid pink;*/
     border-bottom: 1px solid var(--color-2);
 }
 
 .section-filmes h2{
     font-size: 2.5rem;
     color: #fff;
-    border-left: 6px solid var(--primary-2);
+    border-left: 6px solid var(--base2);
     line-height: 40px;
     padding-left: 1rem;
     margin: 1rem 0;
@@ -157,7 +157,7 @@ html, body{
     width: 100%;
     height: auto;
     margin: 15px 0 0px 0;/*15px 0 25px 0*/
-    border: 3px solid red;
+    /*border: 3px solid red;*/
     padding-bottom: 20px;
     /*border-bottom: 1px solid rgba(255,255,255,.08);*/
 }
@@ -173,7 +173,7 @@ html, body{
     /*align-items: center;*/
     position: relative;
     background-color: var(--bg4);
-    border: 1px solid grey;
+    border: 1px solid rgb(68, 65, 65);
 }
 
 .itens li .poster{
@@ -202,7 +202,7 @@ html, body{
 
 .itens li .data{
     margin: 8px;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
 }
 .itens li .data a{
     color: #fff;
@@ -218,7 +218,9 @@ html, body{
 .section-filmes .ver_mais{
     display: flex;
     justify-content: flex-end;
-    border: 1px solid #fff;
+    width: 100%;
+    height: auto;
+    /*border: 1px solid #fff;*/
 }
 .section-filmes .ver_mais .btn_ver_mais{
     font-size: 1rem;
@@ -230,7 +232,7 @@ html, body{
     border-radius: 3px;
     margin: 0 2rem 1rem 0;
     background-color: var(--base2);
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
 }
 
 
@@ -253,7 +255,7 @@ footer{
 }
 
 footer h2{
-    color: var(--primary-2);
+    color: var(--base2);
     font-size: 50px;
 }
 
